@@ -1,0 +1,41 @@
+# peaclock config
+# file: peaclock.conf
+# date: 2020-06-16T18:46:25Z
+
+mode clock
+view binary
+toggle padding
+stopwatch start
+timer 10m:0s
+timer-exec ''
+date '%a %b %d'
+locale ''
+timezone ''
+fill-colon ''
+fill-active ''
+fill-inactive ''
+rate-input 50
+rate-status 5000
+rate-refresh 1000
+block 8 1
+padding 6 6
+margin 0 0
+ratio 1 12
+date-padding 1
+set date on
+set seconds on
+set hour-24 on
+set auto-size off
+set auto-ratio off
+style active-fg clear
+style active-bg #ff5700
+style inactive-fg #424854
+style inactive-bg #424854
+style colon-fg clear
+style colon-bg clear
+style date #424854
+style text clear
+style background #1B1E24
+style prompt clear
+style success green
+style error red
